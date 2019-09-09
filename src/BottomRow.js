@@ -14,7 +14,7 @@ const BottomRow = () => {
         <h3 className="down__title">Down</h3>
         <div className="down__value">{down}</div>
         <button className="quarter__button" onClick = {() => setDown(down +1)}> Set Down</button>
-        <button className="reset" onClick = {() => setDown(0)}>Reset Down</button>
+        <button className="resetButtons" onClick = {() => setDown(0)}>Reset Down</button>
       </div>
       <div className="toGo">
         <h3 className="toGo__title">To Go</h3>
@@ -28,7 +28,7 @@ const BottomRow = () => {
         <h3 className="quarter__title">Quarter</h3>
         <div className="quarter__value" >{quarter}</div>
         <button className="quarter__button" onClick = {() => setQuarter(quarter +1)}> Set Quarter</button>
-        <button className="reset" onClick = {() => setQuarter(0)}>Reset Quarter</button>
+        <button className="resetButtons" onClick = {() => setQuarter(0)}>Reset Quarter</button>
       </div>
     </div>
   );
