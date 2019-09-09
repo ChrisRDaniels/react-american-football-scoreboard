@@ -86,7 +86,7 @@ h1 {
   display: flex;
   justify-content: space-around;
   place-items: center;
-  height: 20rem;
+  height:30rem;
 }
 
 .down,
@@ -131,7 +131,7 @@ h1 {
   border-radius: 4px;
 }
 
-.resetScores {
+.reset {
   margin: 1rem;
   border-radius: 4px;
 }
